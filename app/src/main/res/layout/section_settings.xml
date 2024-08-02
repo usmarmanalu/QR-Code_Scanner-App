@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Vibrate Option -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444444"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrate"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_vibrate_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Word"
+            android:textColor="#aaaaaa"
+            android:layout_below="@+id/tv_vibrate"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/switch_vibrate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:checked="true"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </RelativeLayout>
+
+    <!-- Beep Option -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444444"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_beep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beep"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_beep_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Word"
+            android:textColor="#aaaaaa"
+            android:textSize="14sp"
+            android:layout_below="@+id/tv_beep"/>
+
+        <Switch
+            android:id="@+id/switch_beep"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:checked="false"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </RelativeLayout>
+</LinearLayout>

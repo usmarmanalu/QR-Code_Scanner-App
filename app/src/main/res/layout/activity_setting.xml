@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blacknav">
+
+    <!-- Include Settings Section -->
+    <include
+        android:id="@+id/ll_settings"
+        layout="@layout/section_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Include Support Section -->
+    <include
+        android:id="@+id/ll_support"
+        layout="@layout/section_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_settings" />
+</RelativeLayout>

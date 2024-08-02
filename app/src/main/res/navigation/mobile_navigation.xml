@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_generate">
+
+    <fragment
+        android:id="@+id/navigation_generate"
+        android:name="com.dicoding.qrcodescannerapp.fragment.GenerateFragment"
+        android:label="Generate"
+        tools:layout="@layout/fragment_generate" >
+        <action
+            android:id="@+id/action_navigation_generate_to_navigation_explore"
+            app:destination="@id/navigation_explore" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.dicoding.qrcodescannerapp.fragment.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_navigation_explore_to_navigation_generate"
+            app:destination="@id/navigation_generate" />
+    </fragment>
+</navigation>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QRCodeScannerApp" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="appBarLayoutStyle">@color/orange</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+
+    </style>
+
+    <style name="Base.Theme.HistoryTabLayout" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/orange</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="windowNoTitle">true</item>
+        <item name="titleTextColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.QRCodeScannerApp" parent="Base.Theme.QRCodeScannerApp" />
+    <style name="Theme.HistoryTabLayout" parent="Base.Theme.HistoryTabLayout" />
+
+</resources>
