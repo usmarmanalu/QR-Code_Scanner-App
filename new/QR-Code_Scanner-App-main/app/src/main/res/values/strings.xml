@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">QR Code Scanner App</string>
+
+    <string name="logo_app">logo app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate">Generate</string>
+    <string name="scanner">Scanner</string>
+    <string name="history">History</string>
+    <string name="tab_text_1">Scanner</string>
+    <string name="tab_text_2">Text</string>
+    <string name="tab_text_3">Website</string>
+    <string name="tab_text_4">WiFi</string>
+
+    <string name="enter_text_to_generate_qr_code">Enter text to generate QR code</string>
+    <string name="enter_link_to_generate_qr_code">Enter link to generate QR code</string>
+    <string name="silakan_scan_untuk_memindai_qr_code">Silakan Scan untuk memindai QR Code</string>
+    <string name="dwonload_qr_code">Dwonload QR Code</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="permission_required">Permission Required</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="permission_msg">It is important to provide this permission for seamless experience. Application will exit automatically.</string>
+    <string name="scanner_qr_code">Scanner QR Code</string>
+    <string name="http_https">^(http|https)://.*$</string>
+    <string name="no_browsers_found">Tidak ada browser yang ditemukan</string>
+    <string name="An_error_occurred_while_opening_the_browser">Terjadi kesalahan saat membuka browser</string>
+    <string name="scan_results">Hasil Pemindaian</string>
+    <string name="search_the_web">Telusuri</string>
+    <string name="result_is_not_a_valid_URL">Hasil bukan URL yang valid</string>
+    <string name="share">Bagikan</string>
+    <string name="share_scan_results">Bagikan hasil pemindaian</string>
+    <string name="text_cannot_be_empty">Teks tidak boleh kosong</string>
+    <string name="success_in_creating_QR_code">Sukses membuat QR Code</string>
+    <string name="failed_to_create_QR_code">Gagal membuat QR Code</string>
+    <string name="qr_code_saved_to_gallery">Kode QR disimpan ke Galeri</string>
+    <string name="failed_to_save_qr_code">Gagal menyimpan Kode QR</string>
+    <string name="failed_to_open_output_stream">Gagal membuka aliran keluaran</string>
+    <string name="failed_to_get_uri">Gagal mendapatkan URI</string>
+    <string name="setting">Pengaturan</string>
+    <string name="do_you_want_to_download_the_qr_code">Apakah Anda ingin mengunduh kode QR?</string>
+    <string name="download_qr_code">Download QR Code</string>
+    <string name="copy">Salin</string>
+    <string name="enter_network_name">Enter network name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="explore">Explore</string>
+    <string name="empty_history_message">Histori Kosong</string>
+
+</resources>
